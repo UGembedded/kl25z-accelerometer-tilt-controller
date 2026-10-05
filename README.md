@@ -21,18 +21,8 @@ according to board orientation.
 - Basic communication timeout/error handling
 
 ## System Overview
+<img width="480" height="640" alt="1" src="https://github.com/user-attachments/assets/e8825bd7-0319-40c7-b09f-052378fb28d8" />
 
-MMA8451Q Accelerometer
-        |
-        | I2C
-        v
-     KL25Z MCU
-        |
-        +----> Tilt/orientation logic
-        |
-        +----> PWM ---> RGB LED
-        |
-        +----> UART ---> Serial debugging
 
 ## Source Files
 

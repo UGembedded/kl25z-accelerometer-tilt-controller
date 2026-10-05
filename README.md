@@ -29,21 +29,3 @@ according to board orientation.
 <img width="480" height="640" alt="6" src="https://github.com/user-attachments/assets/f587a604-bd73-4d9a-8df9-fca5d3ddc193" />
 <img width="480" height="640" alt="7" src="https://github.com/user-attachments/assets/9c67de23-d595-4b4b-9d98-42ef12dfeca8" />
 <img width="480" height="640" alt="8" src="https://github.com/user-attachments/assets/6b633068-b5d8-4d52-8bdb-ca8a01a0bc9e" />
-
-
-
-
-## Source Files
-
-- `main.c` - application logic, accelerometer configuration and LED control
-- `board.c/.h` - MCU clock and timing configuration
-- `i2c.c/.h` - I2C driver
-- `uart.c` / `UART0_TXRX2.h` - UART communication
-- `PWM.h` - PWM/LED interface
-
-## Development Environment
-
-- NXP FRDM-KL25Z
-- ARM Cortex-M0+
-- Embedded C
-- CMSIS KL25Z device header (`MKL25Z4.h`)

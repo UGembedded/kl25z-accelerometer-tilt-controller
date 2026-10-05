@@ -6,5 +6,4 @@
 int UART0_init(void);
 int sendStr(const char *text, int length);
 int sendHelloWorld(void);
-/* This application needs transmission only; reception is not enabled. */
 #endif

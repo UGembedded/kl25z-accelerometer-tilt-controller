@@ -1,6 +1,5 @@
 /* i2c configuration from:
-https://community.nxp.com/t5/Sensors-Knowledge-Base/MMA8451Q-Bare-metal-example-project/ta-p/1127268
- */
+https://community.nxp.com/t5/Sensors-Knowledge-Base/MMA8451Q-Bare-metal-example-project/ta-p/1127268 */
 #include "MKL25Z4.h"
 #include "i2c.h"
 #define I2C_TIMEOUT_MS 20U

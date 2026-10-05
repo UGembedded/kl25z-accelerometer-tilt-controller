@@ -2,7 +2,6 @@
 #include "MKL25Z4.h"
 #include "UART0_TXRX2.h"
 
-
 static int UART_FindDividers(uint32_t source_hz, uint32_t baud,
                       uint32_t *osr, uint32_t *sbr)
 {

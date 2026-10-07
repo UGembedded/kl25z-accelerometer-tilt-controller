@@ -68,7 +68,7 @@ The onboard RGB LED changes colour with board orientation:
 
 ### Intermediate orientations
 
-Tilting the board between the main orientations mixes the LED colours.
+Tilting the board between the main orientations mixes the LED colours tilting at around 45°.
 The photos below show purple and pink shades, consistent with combined
 red and blue output.
 

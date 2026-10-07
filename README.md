@@ -54,31 +54,33 @@ kl25z-accelerometer-tilt-controller/
 
 ## pictures
 
-1 Green	Near 90° from flat; Y-axis dominant
+## Demonstration
 
-<img width="480" height="640" alt="7" src="https://github.com/user-attachments/assets/9c67de23-d595-4b4b-9d98-42ef12dfeca8" />
+The onboard RGB LED changes colour with board orientation:
+**X → red**, **Y → green**, and **Z → blue**.
 
-2 Blue	Near 0°; approximately flat
+### Main orientations
 
-<img width="480" height="640" alt="8" src="https://github.com/user-attachments/assets/6b633068-b5d8-4d52-8bdb-ca8a01a0bc9e" />
+| Green — Y-axis dominant | Blue — Z-axis dominant | Red/pink — X-axis dominant |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/9c67de23-d595-4b4b-9d98-42ef12dfeca8" width="240" alt="Board held upright with the RGB LED glowing green"> | <img src="https://github.com/user-attachments/assets/6b633068-b5d8-4d52-8bdb-ca8a01a0bc9e" width="240" alt="Board approximately flat with the RGB LED glowing blue"> | <img src="https://github.com/user-attachments/assets/f587a604-bd73-4d9a-8df9-fca5d3ddc193" width="240" alt="Board held upright with the RGB LED glowing red-pink"> |
+| Approximately upright (90°) | Approximately flat (0°) | Approximately upright (90°) |
 
-4 Red/pink	Near 90° from flat; X-axis dominant
+### Intermediate orientations
 
-<img width="480" height="640" alt="6" src="https://github.com/user-attachments/assets/f587a604-bd73-4d9a-8df9-fca5d3ddc193" />
+Tilting the board between the main orientations mixes the LED colours.
+The photos below show purple and pink shades, consistent with combined
+red and blue output.
 
-5 purple	Intermediate tilt; 45° tilt
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f21e82e9-9ef3-495d-b5b4-81734613be28" width="220" alt="Tilted board with a pale purple LED">
+  <img src="https://github.com/user-attachments/assets/6700f306-08b5-4853-baae-2ae71aa55719" width="220" alt="Tilted board with a purple LED">
+</p>
 
-<img width="480" height="640" alt="1" src="https://github.com/user-attachments/assets/f21e82e9-9ef3-495d-b5b4-81734613be28" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/784c6808-c6dd-4a7f-86a2-1fbd33392018" width="220" alt="Tilted board with a pink-purple LED">
+  <img src="https://github.com/user-attachments/assets/1c8f1f18-7889-4be9-9e44-3ec0b5ca39e3" width="220" alt="Tilted board with a pale purple-pink LED">
+</p>
 
-6 Purple	Intermediate tilt; 45° tilt
-
-<img width="480" height="640" alt="2" src="https://github.com/user-attachments/assets/6700f306-08b5-4853-baae-2ae71aa55719" />
-
-7 purple	Intermediate tilt; 45° tilt
-
-<img width="480" height="640" alt="3" src="https://github.com/user-attachments/assets/784c6808-c6dd-4a7f-86a2-1fbd33392018" />
-
-8 purple	Intermediate tilt; 45° tilt
-
-<img width="480" height="640" alt="4" src="https://github.com/user-attachments/assets/1c8f1f18-7889-4be9-9e44-3ec0b5ca39e3" />
-
+> Orientations are estimated from the photos. The firmware maps acceleration
+> magnitudes to LED brightness; it does not calculate tilt angles in degrees.

@@ -62,10 +62,6 @@ kl25z-accelerometer-tilt-controller/
 
 <img width="480" height="640" alt="8" src="https://github.com/user-attachments/assets/6b633068-b5d8-4d52-8bdb-ca8a01a0bc9e" />
 
-3 Red	Near 90° from flat; X-axis dominant
-
-<img width="480" height="640" alt="5" src="https://github.com/user-attachments/assets/4cf81d84-99a3-4439-891e-122e833cca7f" />
-
 4 Red/pink	Near 90° from flat; X-axis dominant
 
 <img width="480" height="640" alt="6" src="https://github.com/user-attachments/assets/f587a604-bd73-4d9a-8df9-fca5d3ddc193" />

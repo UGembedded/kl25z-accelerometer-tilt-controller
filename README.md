@@ -20,6 +20,36 @@ according to board orientation.
 - UART debugging output
 - Basic communication timeout/error handling
 
+## Pin connections
+
+MMA8451Q accelerometer	SCL — I²C clock	PTE24	I²C0, ALT5
+MMA8451Q accelerometer	SDA — I²C data	PTE25	I²C0, ALT5
+RGB LED	Red	PTB18	TPM2 channel 0, ALT3
+RGB LED	Green	PTB19	TPM2 channel 1, ALT3
+RGB LED	Blue	PTD1	TPM0 channel 1, ALT4
+Serial output	UART0 TX — transmit	PTA2	UART0, ALT2
+Serial input	UART0 RX — receive	PTA1	UART0, ALT2; unused by this code
+
+## Repository structure
+kl25z-accelerometer-tilt-controller/
+├── README.md
+├── .gitignore
+├── src/
+│   ├── main.c
+│   ├── board.c
+│   ├── i2c.c
+│   └── uart.c
+├── include/
+│   ├── PWM.h
+│   ├── board.h
+│   ├── i2c.h
+│   └── UART0_TXRX2.h
+├── docs/
+│   └── images/
+
+
+
+
 ## System Overview
 <img width="480" height="640" alt="1" src="https://github.com/user-attachments/assets/f21e82e9-9ef3-495d-b5b4-81734613be28" />
 <img width="480" height="640" alt="2" src="https://github.com/user-attachments/assets/6700f306-08b5-4853-baae-2ae71aa55719" />

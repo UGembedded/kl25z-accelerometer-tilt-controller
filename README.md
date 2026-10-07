@@ -82,4 +82,3 @@ red and blue output.
   <img src="https://github.com/user-attachments/assets/1c8f1f18-7889-4be9-9e44-3ec0b5ca39e3" width="220" alt="Tilted board with a pale purple-pink LED">
 </p>
 
-> magnitudes to LED brightness; it does not calculate tilt angles in degrees.
